@@ -1,11 +1,11 @@
 package com.pluralsight.finance;
 
-public class Jewelry extends FixedAsset{
-    private double karat;
+public class Gold extends FixedAsset {
+    private double weight;
 
-    public Jewelry(String name, double marketValue, double karat) {
+    public Gold(String name, double marketValue, double weight) {
         super(name, marketValue);
-        this.karat = karat;
+        this.weight = weight;
     }
 
 
